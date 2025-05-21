@@ -33,6 +33,8 @@ cd tu-proyecto
 docker-compose up --build
 ```
 
+---
+
 ## 🔧 Uso del entorno virtual para el backend (opcional)
 
 Si prefieres ejecutar el backend localmente sin Docker, puedes crear un entorno virtual en la carpeta `backend-python`.
@@ -79,6 +81,8 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 [Fuente](https://fastapi.tiangolo.com/es/virtual-environments/#instala-paquetes-directamente)
 
+---
+
 # 🧾 Uso del archivo `Dispositivos.sql` en SQL Server
 
 ## 📌 Pasos en SSMS:
@@ -90,14 +94,14 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ## 📌 Estos pasos hará lo siguiente:
 
-✅ Creará una base de datos llamado `GPS_DB`.
-✅ Creará la tabla `Dispositivos`.
-✅ Insertará algunos datos.
-✅ Consultará dispositivos activos.
-✅ Creará un procedimiento para actualizar el estado de un dispositivo.
-✅ Ejecutará el procedimiento sobre un registro de ejemplo.
-✅ Verificará los cambios.
-✅ Finalmente una breve documentación al final del archivo `Dispositivos.sql` sobre como hacer un backup y restauracion parcial
+- ✅ Creará una base de datos llamado `GPS_DB`.
+- ✅ Creará la tabla `Dispositivos`.
+- ✅ Insertará algunos datos.
+- ✅ Consultará dispositivos activos.
+- ✅ Creará un procedimiento para actualizar el estado de un dispositivo.
+- ✅ Ejecutará el procedimiento sobre un registro de ejemplo.
+- ✅ Verificará los cambios.
+- ✅ Finalmente una breve documentación al final del archivo `Dispositivos.sql` sobre como hacer un backup y restauracion parcial
 
 ---
 
