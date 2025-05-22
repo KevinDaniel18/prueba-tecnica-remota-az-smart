@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//reemplaza la URL http://192.168.1.11 por tu IP local
 const instance = axios.create({ baseURL: "http://192.168.1.11:8000" });
 
 export function getDevices() {
