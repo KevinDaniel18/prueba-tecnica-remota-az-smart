@@ -105,4 +105,4 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ---
 
-✍️ **Autor:** _(Kevin Sierra Castro - Desarrollador Full Stack Multiplataforma)_
+✍️ **Autor:** _Kevin Sierra Castro - Desarrollador Full Stack Multiplataforma_
